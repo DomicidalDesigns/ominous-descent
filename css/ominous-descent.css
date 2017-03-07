@@ -1,0 +1,501 @@
+/*---------TYPOGRAPHY---------*/
+@font-face {
+  font-family: OctoberCrow;
+  src:  url('../fonts/October Crow.ttf');
+}
+
+@font-face {
+  font-family: ScorchFlash;
+  src:  url('../fonts/scorchflashfont.ttf');
+}
+
+@font-face {
+  font-family: AnpadScript;
+  src:  url('../fonts/Anpad Script.ttf');
+}
+
+@font-face{
+  font-family: BOOTERZF;
+  src:  url('../fonts/BOOTERZF.ttf');
+}
+
+@font-face{
+  font-family: MISPROJECT;
+  src:  url('../fonts/MISPROJECT.TTF');
+}
+
+@font-face{
+  font-family: GreenCaps;
+  src:  url('../fonts/GreenCaps.ttf');
+}
+
+@font-face{
+  font-family:  Anivers;
+  src:  url('../fonts/Anivers_Regular.otf');
+}
+
+@font-face{
+  font-family: SHORTCUT;
+  src: url('../fonts/SHORTCUT.TTF');
+}
+
+@font-face{
+  font-family: MAXRHODES;
+  src: url('../fonts/MAXRHODES.TTF');
+}
+
+@font-face{
+  font-family: DOWNCOME;
+  src: url('../fonts/DOWNCOME.TTF');
+}
+
+@font-face{
+  font-family: Charakterny;
+  src: url('../fonts/Charakterny.otf');
+}
+
+@font-face{
+  font-family: 'fontawesome';
+  src: url('../fonts/fontawesome-webfont.ttf')
+}
+h1,.h1 {
+  font-family: AnpadScript;
+}
+
+h2,.h2{
+  color:#ffffff;
+  text-align: center;
+  font-family: Charakterny;
+  font-size: 50pt;
+}
+
+h3,.h3{
+  color:red;
+  text-align: center;
+  font-family:Charakterny;
+  font-size: 2vw;
+}
+
+h4{
+  text-align: center;
+  font-family: MISPROJECT;
+  font-size:54pt;
+  color: white;
+}
+
+a span:hover{
+  text-decoration: blink;
+  color:#AAFF00;
+}
+
+/*---------MAIN_CLASSES---------*/
+html,body {
+  background-color: black;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body .landing{
+  margin: 0;
+  margin-top: 0;
+  background-image: url(../images/header3.png);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  color: #ffff00;
+}
+
+a:hover h4{
+  text-decoration: none;
+  color: #ffff74;
+}
+
+a:focus,a:hover,h4{
+  text-decoration: none;
+}
+
+.header-desktop {
+  height: 100vh;
+  padding-bottom: 10%;
+}
+
+.header-logo {
+
+}
+
+
+.logo-mobile{
+  margin-left: auto;
+  margin-right: auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+.logo-desktop{
+  max-width:100%;
+  max-height:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resize-head{
+  height: 5vh;
+  margin-top: 10vh;
+  margin-bottom: 9vh;
+  z-index: 0;
+}
+
+.resize-image{
+  height: 60vh;
+}
+.header-logo {
+  /*  height: 60%;*/
+  /*background-image: url(../images/od-regular_500.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;*/
+}
+
+.dropdown-desktop{
+  margin-top: 1vh;
+}
+
+.dropdown-desktop-a{
+  height: 50px;
+  width: 50px;
+  display: block;
+}
+
+.dropdown-mobile img{
+  height: 4vh
+}
+
+#dropdwn{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#home-desktop{
+  height: 89vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#home-mobile{
+  background-image: url(../images/hallway-center.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+/* NAVIGATION */
+#navi{
+  height: 6vh;
+  background: black;
+  line-height: 6vh;
+  position: relative;
+}
+
+#navi li{
+  list-style-type: none;
+  float: left;
+}
+
+#navi li a{
+  height: 100%;
+  color: #178B3A;
+  margin: 0;
+  padding: 0px 25px;
+  text-align: center;
+  font-family: downcome;
+  font-size: 24pt;
+  text-decoration: none;
+}
+
+#navi li a:hover, #navi li a:active{
+  color: #80FF00;
+}
+
+
+#navi li .tix{
+  color:rgb(247, 228, 151);
+}
+
+#navi li .tix:hover, #navi li .tix:active{
+  color: #AAFF00;
+}
+
+.tickets{
+  position: absolute;
+  z-index: 9999;
+  margin-left: 60vw;
+}
+
+#navi .soc{
+/*  padding-left: 5vw;*/
+  width: 200px;
+  float: right;
+  
+}
+
+#navi .socmedia{
+  margin: 0;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+}
+
+#navi .socmedia:hover{
+  opacity: 1;
+}
+
+#nav-mobile{
+  padding-top: 2vh;
+}
+
+#navi li a.nav-active {
+  color:#ccc;
+  text-decoration: underline;
+}
+
+.fb{
+  background-image: url(../images/Facebook-green.png);
+}
+
+
+.tw{
+  background-image: url(../images/Twitter-green.png);
+}
+
+.inst{
+  background-image:url(../images/Instagram-green.png);
+}
+
+.yt{
+  background-image: url(../images/Youtube-green.png);
+}
+
+.section{
+  padding-top: 0;
+  margin-top: 0;
+  padding-top: 1%;
+}
+
+.overflow{
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 88vh;
+  padding: 0;
+  background-image: url(../images/hallway-center.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.overflow .section .heading{
+  margin-top: 0%;
+}
+
+#footer{
+  height: 5vh;
+  background: black;
+  width: 100%;
+}
+
+.footer{
+  display:block;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 5vh;
+}
+
+.warning{
+  padding-top: .5%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 13px;
+}
+
+.yellow{
+  color: #ffff74;
+}
+
+.green{
+  color:rgb(0, 255, 0);
+}
+
+.bg-dark{
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 3%;
+  border-color: rgba(52, 52, 52, 0);
+  background: rgba(0, 0, 0, 0.82);
+  margin-bottom: 10px;
+}
+
+.bg-yellow{
+  border-style: solid;
+  border-radius: 40px;
+  border-width: 3%;
+  border-color: rgba(52, 52, 52, 0);
+  background: rgba(0, 0, 0, 0.49);
+  margin-bottom: 10px;
+}
+
+.heading{
+  height: 10vh;
+  background: black;
+  margin-bottom: 25px;
+}
+
+.head{
+  border-style: none;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.heading h2{
+  line-height: 10vh;
+}
+
+div span.fa{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.rsp-head{
+  font-size: 6vh;
+}
+
+.rsp-body{
+  font-size:3vmin;
+}
+
+
+#map {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+
+.bg-drop{
+  background-color: #001a00;
+}
+
+#navi li .dropdown-menu{
+    line-height: 4vh;
+    padding-top: 10px;
+}
+
+/*---------OTHER---------*/
+
+/*
+@media screen and (min-device-width: 600px) and (min-width: 600px) {
+  .header-logo{
+    background-image: url(../images/od-horizontal.png);
+    background-size: cover;
+  }
+}
+*/
+
+
+/*---------SCROLLBAR---------*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(0, 255, 0, 0.8); 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(29, 255, 0, 0.4); 
+}
+
+/*---------CUSTOM CLASSES---------*/
+
+.coming-soon {
+  width: 100%;
+}
+
+.coming-soon h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.coming-soon-xs{
+  margin-top:50px;
+}
+.coming-soon-xs h1{
+  font-size: 24pt;
+}
+/*---------EFFECT_CLASSES---------*/
+
+/*---------BOOTSTRAP_CLASSES---------*/
+
+.carousel {
+  width:50%;
+  height:100px;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*---------FAQ_CLASSES---------*/
+.faqHeader {
+  font-size: 32px;
+  margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+  font-family: 'fontawesome';
+  content: ""; /* "play" icon */
+  float: right;
+  color: #F58723;
+  font-size: 5vmin;
+  line-height: 5vmin;
+  /* rotate "play" icon from > (right arrow) to down arrow */
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+  /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: #454444;
+}
+
+.panel-title{
+  font-size: 5vmin;
+}
+
+.panel-heading h4{
+  font-family: 'MISPROJECT';
+}
