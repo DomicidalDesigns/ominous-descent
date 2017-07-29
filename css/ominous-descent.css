@@ -1,13 +1,5 @@
 /*---------TYPOGRAPHY---------*/
-@font-face {
-  font-family: OctoberCrow;
-  src:  url('../fonts/October Crow.ttf');
-}
 
-@font-face {
-  font-family: ScorchFlash;
-  src:  url('../fonts/scorchflashfont.ttf');
-}
 
 @font-face {
   font-family: AnpadScript;
@@ -15,33 +7,8 @@
 }
 
 @font-face{
-  font-family: BOOTERZF;
-  src:  url('../fonts/BOOTERZF.ttf');
-}
-
-@font-face{
   font-family: MISPROJECT;
   src:  url('../fonts/MISPROJECT.TTF');
-}
-
-@font-face{
-  font-family: GreenCaps;
-  src:  url('../fonts/GreenCaps.ttf');
-}
-
-@font-face{
-  font-family:  Anivers;
-  src:  url('../fonts/Anivers_Regular.otf');
-}
-
-@font-face{
-  font-family: SHORTCUT;
-  src: url('../fonts/SHORTCUT.TTF');
-}
-
-@font-face{
-  font-family: MAXRHODES;
-  src: url('../fonts/MAXRHODES.TTF');
 }
 
 @font-face{
@@ -58,6 +25,12 @@
   font-family: 'fontawesome';
   src: url('../fonts/fontawesome-webfont.ttf')
 }
+
+@font-face{
+  font-family: 'SHORTCUT';
+  src: url('/fonts/SHORTCUT.TTF')
+}
+
 h1,.h1 {
   font-family: AnpadScript;
 }
@@ -99,7 +72,7 @@ html,body {
 body .landing{
   margin: 0;
   margin-top: 0;
-  background-image: url(../images/header3.png);
+  background-image: url(../images/header3.jpg);
   background-size: cover;
   background-color: rgb(0, 0, 0);
   color: #ffff00;
@@ -118,11 +91,6 @@ a:focus,a:hover,h4{
   height: 100vh;
   padding-bottom: 10%;
 }
-
-.header-logo {
-
-}
-
 
 .logo-mobile{
   margin-left: auto;
@@ -176,6 +144,17 @@ a:focus,a:hover,h4{
   -webkit-animation-iteration-count: infinite;
 }
 
+.descend{
+  width: 160px;
+  font-size: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-family: downcome;
+}
+
 #home-desktop{
   height: 89vh;
   background-size: cover;
@@ -183,7 +162,7 @@ a:focus,a:hover,h4{
 }
 
 #home-mobile{
-  background-image: url(../images/hallway-center.jpg);
+  background-image: url(../images/hallway-center_25.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +186,7 @@ a:focus,a:hover,h4{
   height: 100%;
   color: #178B3A;
   margin: 0;
-  padding: 0px 25px;
+  padding: 0px 20px;
   text-align: center;
   font-family: downcome;
   font-size: 24pt;
@@ -233,11 +212,10 @@ a:focus,a:hover,h4{
   margin-left: 60vw;
 }
 
-#navi .soc{
+#navi li.soc{
 /*  padding-left: 5vw;*/
   width: 200px;
   float: right;
-  
 }
 
 #navi .socmedia{
@@ -246,6 +224,7 @@ a:focus,a:hover,h4{
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.4;
+  padding: 0px 25px;
 }
 
 #navi .socmedia:hover{
@@ -290,7 +269,7 @@ a:focus,a:hover,h4{
   overflow-x: hidden;
   height: 88vh;
   padding: 0;
-  background-image: url(../images/hallway-center.jpg);
+  background-image: url(../images/hallway-center_25.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -350,7 +329,6 @@ a:focus,a:hover,h4{
 }
 
 .heading{
-  height: 10vh;
   background: black;
   margin-bottom: 25px;
 }
@@ -370,7 +348,7 @@ div span.fa{
 }
 
 .rsp-head{
-  font-size: 6vh;
+  font-size: 7vmin;
 }
 
 .rsp-body{
@@ -391,6 +369,10 @@ div span.fa{
 #navi li .dropdown-menu{
     line-height: 4vh;
     padding-top: 10px;
+}
+
+.mobile-space{
+  margin-bottom:15%;
 }
 
 /*---------OTHER---------*/
